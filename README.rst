@@ -1,5 +1,4 @@
-invivoinfer is a python package containing the code described in `Extraction of Synaptic Input Properties in-vivo (2016)
- P.Puggioni, M. Jelitai, I. Duguid, M. van Rossum`
+ invivoinfer is a python package containing the code described in `Extraction of Synaptic Input Properties in-vivo (2016) P.Puggioni, M. Jelitai, I. Duguid, M. van Rossum`
 
 ** You should feel that the code is undertested and certainly sub-optimal **
 
