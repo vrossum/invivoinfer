@@ -1,0 +1,199 @@
+{
+  "taus_estimation_par": {
+    "tau2_bound": [
+      0.0001,
+      0.005
+    ],
+    "tau1_bound": [
+      0.0001,
+      0.001
+    ],
+    "lim_fit_std": [
+      10,
+      1000
+    ],
+    "lim_fit_psd": [
+      10,
+      1000
+    ],
+    "n_iter_tau": 30
+  },
+  "baseline_corr": {
+    "average": 95,
+    "uncertainty": 5,
+    "ToUse": true
+  },
+  "hf_std_corr": {
+    "average": 2,
+    "uncertainty": 0.3,
+    "ToUse": true
+  },
+  "lf_std_corr": {
+    "ToUse": true
+  },
+  "first_guess_par": {
+    "LogNormal": {
+      "pw0_bound": [
+        10,
+        150
+      ],
+      "pw1_bound": [
+        10,
+        150
+      ],
+      "freq_bound": [
+        100,
+        3000
+      ],
+      "n_iter_par": 50
+    },
+    "TruncNormal": {
+      "pw0_bound": [
+        10,
+        150
+      ],
+      "pw1_bound": [
+        10,
+        150
+      ],
+      "freq_bound": [
+        100,
+        3000
+      ],
+      "n_iter_par": 50
+    },
+    "Exponential": {
+      "pw0_bound": [
+        5,
+        150
+      ],
+      "pw1_bound": [
+        0.3,
+        10
+      ],
+      "freq_bound": [
+        100,
+        3000
+      ],
+      "n_iter_par": 50
+    }
+  },
+  "sk_ku_corr": {
+    "ToUse": true
+  },
+  "kernel_par": {
+    "Type": "exponential",
+    "BW": 1
+  },
+  "likelihood_par": {
+    "nsamples": 5,
+    "tau_est": false
+  },
+  "prior_par": {
+    "LogNormal": {
+      "pw0": [
+        "Uniform",
+        10,
+        150
+      ],
+      "pw1": [
+        "Uniform",
+        10,
+        150
+      ],
+      "freq": [
+        "Uniform",
+        100,
+        3000
+      ],
+      "tau2": [
+        "Normal",
+        false,
+        false,
+        0.000001,
+        0.01
+      ],
+      "tau1": [
+        "Normal",
+        false,
+        false,
+        0.0000000000001,
+        0.005
+      ]
+    },
+    "TruncNormal": {
+      "pw0": [
+        "Uniform",
+        10,
+        150
+      ],
+      "pw1": [
+        "Uniform",
+        10,
+        150
+      ],
+      "freq": [
+        "Uniform",
+        100,
+        3000
+      ],
+      "tau2": [
+        "Normal",
+        false,
+        false,
+        0.000001,
+        0.01
+      ],
+      "tau1": [
+        "Normal",
+        false,
+        false,
+        0.0000000000001,
+        0.005
+      ]
+    },
+    "Exponential": {
+      "pw0": [
+        "Uniform",
+        5,
+        150
+      ],
+      "pw1": [
+        "Uniform",
+        0.3,
+        10
+      ],
+      "freq": [
+        "Uniform",
+        100,
+        3000
+      ],
+      "tau2": [
+        "Normal",
+        false,
+        false,
+        0.000001,
+        0.01
+      ],
+      "tau1": [
+        "Normal",
+        false,
+        false,
+        0.0000000000001,
+        0.005
+      ]
+    }
+  },
+  "map_par": {
+    "n_samples": 15,
+    "start_std": 0.3
+  },
+  "mc_par":{
+  "mh": {
+    "n_samples": 500,
+    "burn_in": 10,
+    "thin": 2,
+    "remove_outliers": false
+  }
+  }
+}
