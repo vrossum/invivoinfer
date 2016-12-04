@@ -1,0 +1,4 @@
+include requirements.txt
+recursive-include data *
+recursive-include config *
+include notebooks/Example_analysis.ipynb
