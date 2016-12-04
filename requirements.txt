@@ -1,8 +1,9 @@
+numpy>=1.11.2
+scipy>=0.18.1
+
 ipython>=4.1.1
 jupyter
 matplotlib>=1.4.3
-numpy>=1.11.2
-scipy>=0.18.1
 seaborn>=0.7.0
 pandas>=0.17.0
 pymc==2.3.4
