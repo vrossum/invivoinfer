@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 
 setup(name='invivoinfer',
-      version='0.1',
+      version='0.1.1',
       description='invivoinfer, code described in the paper "Extraction of synaptic input properties in vivo",'
                   'P.Puggioni et al.',
       url='https://github.com/ppuggioni/invivoinfer',
