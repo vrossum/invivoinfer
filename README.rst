@@ -10,6 +10,9 @@ Installation
 
 ::
 
+    git clone git+https://github.com/ppuggioni/invivoinfer.git
+    cd invivoinfer
+    pip install -r requirements.txt
     python setup.py develop
 
 - Or you can also use (alpha version, probably not working yet!)
@@ -18,6 +21,12 @@ Installation
 
     pip install invivoinfer
 
+
+- Or installing via (this should work, then download the notebook and you should be able to run it):
+
+::
+
+    pip install git+https://github.com/ppuggioni/invivoinfer.git
 
 
 Getting Started
