@@ -10,7 +10,7 @@ Installation
 
 ::
 
-    git clone git+https://github.com/ppuggioni/invivoinfer.git
+    git clone https://github.com/ppuggioni/invivoinfer.git
     cd invivoinfer
     pip install -r requirements.txt
     python setup.py develop
